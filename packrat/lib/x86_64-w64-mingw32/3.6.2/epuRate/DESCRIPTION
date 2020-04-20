@@ -1,0 +1,19 @@
+Package: epuRate
+Title: A clean template for R Markdown documents
+Version: 0.1
+Authors@R: person("Yan", "Holtz", email = "yan.holtz.data@gmail.com",
+    role = c("aut", "cre"))
+Description: What the package does (one paragraph)
+Depends: R (>= 3.1.0)
+License: MIT
+LazyData: true
+GithubRepo: epuRate
+GithubUsername: davan690
+GithubRef: master
+GithubSHA1: 54b7094a791cefe389481235792a9f3723051f5b
+Author: Yan Holtz [aut, cre]
+Maintainer: Yan Holtz <yan.holtz.data@gmail.com>
+Built: R 3.6.2; ; 2020-04-20 11:30:54 UTC; windows
+InstallAgent: packrat 0.5.0
+InstallSource: github
+Hash: 075a6d9d02a3ec643aabe6ca2f468621
