@@ -1,0 +1,24 @@
+---
+title: "A clean and uncluttered template"
+author: "[Yan Holtz](https://github.com/holtzy)"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+mail: "yan.holtz.data@gmail.com"
+linkedin: "yan-holtz-2477534a"
+twitter: "r_graph_gallery"
+github: "holtzy"
+home: "www.yan-holtz.com"
+# !!! You need to provide a logo image here !!! Or just delete the field for no logo
+logo: "logo_gallery.png"
+output:
+  epuRate::epurate:
+    toc: TRUE
+    number_sections: FALSE
+    code_folding: "hide"
+---
+
+
+<br><br>
+
+|  Test start | Test exit |
+  |-------------|-----------|
+  |`r knitr::include_app("https://forms.office.com/Pages/ResponsePage.aspx?id=R1GvHUOlB0ei-yrPCyo5NqqJlF4pc6hJtbRgbbq2_9JUMDZZSDNVUFRSWUU3VzgzUTBUUkk2TjRSUyQlQCN0PWcu&embed=true")` | `r knitr::include_app("https://forms.office.com/Pages/ResponsePage.aspx?id=R1GvHUOlB0ei-yrPCyo5Nm97dVPHGJxPg_BG1arMjLlUQzdPVzJERk5JQlk0Q0xGRFpRWU8yNkVLMS4u&embed=true")` |
