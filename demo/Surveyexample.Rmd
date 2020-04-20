@@ -2,10 +2,10 @@
 title: "Index"
 author: '[Anthony Davidson](https://github.com/davan690)'
 date: "`r format(Sys.time(), '%d %B %Y')`"
-
+output_dir: "./docs"
 output:
   bookdown::html_document2: 
-   runtime: shiny
+   # runtime: shiny
    theme: united
    highlight: tango
    fig_caption: yes
@@ -14,7 +14,6 @@ output:
    code_folding: hide
    df_print: paged
    number_sections: false
-   #  output_dir: docs
   # epuRate::epurate:
   #   code_folding: hide
   #   number_sections: no
@@ -25,7 +24,6 @@ output:
 # - .Rprofile
 # - packrat/packrat.opts
 # - packrat/packrat.lock
-
 # github: davan690
 ---
 

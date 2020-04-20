@@ -1,0 +1,8 @@
+book_filename: "Davidson2020_reproduciblesurvey"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: " "
+rmd_files: ["index.Rmd"]
+#, "03-methods-process-models.Rmd"]
+always_allow_html: true

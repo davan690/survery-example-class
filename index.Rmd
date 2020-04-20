@@ -1,0 +1,53 @@
+---
+title: "Davidson2020_reproduciblesurvey"
+author: "Anthony Davidson"
+date: "20/04/2020"
+site: bookdown::bookdown_site
+output: bookdown::html_document2
+editor_options: 
+  chunk_output_type: console
+---
+
+# Survey {#one}
+
+```{r setup, echo=FALSE, warning = F, message = F}
+# install.packages('bookdown')
+library(rmarkdown)
+library(bookdown)
+require(knitr)
+require(rmarkdown)
+# require(epuRate)
+
+# add packrat>
+# packrat::init()
+
+
+# library(rmdformats)
+
+## Global options
+options(max.print="75")
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE,
+	cache = TRUE,
+	comment = NA,
+	prompt = FALSE,
+	tidy = TRUE
+)
+opts_knit$set(width=75)
+
+#test
+# sets paths for computers with other software components
+# this code block produces an enviroment warning
+# but not sure how to sort depenancies still
+# Feb2020
+# myPaths <- .libPaths("C:/Program Files/R/R-3.6.2/library")
+# myPaths <- c(myPaths)
+# .libPaths(myPaths)  # add new path
+# .libPaths()
+```
+
+|  Test start | Test exit |
+  |-------------|-----------|
+  |`r knitr::include_app("https://forms.office.com/Pages/ResponsePage.aspx?id=R1GvHUOlB0ei-yrPCyo5NqqJlF4pc6hJtbRgbbq2_9JUMDZZSDNVUFRSWUU3VzgzUTBUUkk2TjRSUyQlQCN0PWcu&embed=true")` | `r knitr::include_app("https://forms.office.com/Pages/ResponsePage.aspx?id=R1GvHUOlB0ei-yrPCyo5Nm97dVPHGJxPg_BG1arMjLlUQzdPVzJERk5JQlk0Q0xGRFpRWU8yNkVLMS4u&embed=true")` |
